@@ -217,7 +217,7 @@ class MIRgrator {
             MCRPath rootDir = buildRootDir(derivate);
 
             for (Element eFile : eFiles) {
-                migrateFile(derivate.getId(), rootDir, eFile);
+                //migrateFile(derivate.getId(), rootDir, eFile);
             }
         }
     }
